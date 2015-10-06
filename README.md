@@ -5,7 +5,11 @@ Creates a timelapse image and/or video of the given picture series
 ## Shoot Pictures
 
 Create lots of images of the night sky, using a tripod and long exposure
-Short tutorial (excerpt from http://www.thephotoforum.com/threads/star-trails-time-lapse.298695/):
+
+### Short Tutorial
+
+From http://www.thephotoforum.com/threads/star-trails-time-lapse.298695/
+
 - use tungsten white balance
 - at least three 30 second exposures with no more than 2 seconds in between shots
 - turn off noise reduction
@@ -40,10 +44,29 @@ The files timelapse.png and timelapse.mp4 will be created.
 
 Use several parameters to control the output:
 
-NAME=my-timelapse # The base name of the target files
-PREFIX=IMG_ # The prefix of the source images
-SUFFIX=tiff # The suffix of the source images
-FPS=30 # The number of frames per second of the target video
+### NAME
+
+The base name of the target files.
+
+NAME=timelapse
+
+### PREFIX
+
+The prefix of the source images.
+
+PREFIX=img_
+
+### SUFFIX
+
+The suffix of the source images.
+
+SUFFIX=jpg
+
+### FPS
+
+The number of frames per second of the target video.
+
+FPS=25
 
 ### Example with Parameters
 
