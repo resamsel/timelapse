@@ -1,6 +1,6 @@
-Creates a timelapse image and/or video of the given picture series
-
 # Timelapse Script
+
+Creates a timelapse image and/or video of the given picture series.
 
 ## Shoot Pictures
 
@@ -44,19 +44,19 @@ The files timelapse.png and timelapse.mp4 will be created.
 
 Use several parameters to control the output:
 
-### NAME
+### Name
 
 The base name of the target files.
 
 NAME=timelapse
 
-### PREFIX
+### Prefix
 
 The prefix of the source images.
 
 PREFIX=img_
 
-### SUFFIX
+### Suffix
 
 The suffix of the source images.
 
@@ -67,6 +67,24 @@ SUFFIX=jpg
 The number of frames per second of the target video.
 
 FPS=25
+
+### In Format
+
+The format of the image file names. It will be prefixed and suffixed with the PREFIX and SUFFIX, respectively.
+
+INFORMAT=%03d
+
+### Image Suffix
+
+The image container.
+
+IMAGE_SUFFIX=png
+
+### Video Suffix
+
+The video container.
+
+VIDEO_SUFFIX=mp4
 
 ### Example with Parameters
 
