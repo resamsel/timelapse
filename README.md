@@ -38,11 +38,11 @@ Run make image or make video or both
 $ make image video
 ```
 
-The files timelapse.png and timelapse.mp4 will be created.
+The files `timelapse.png` and `timelapse.mp4` will be created.
 
 ## Configuration
 
-Use several parameters to control the output:
+Several parameters can be used to control the output.
 
 ### Name
 
